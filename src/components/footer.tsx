@@ -1,6 +1,5 @@
 
 import React from 'react';
-import Image from 'next/image';
 const Footer = () => {
   return (
     <footer className="bg-[#0D0D0D] w-full px-4 sm:px-8 lg:px-[150px] max-w-[1920px] pt-12">
@@ -11,7 +10,7 @@ const Footer = () => {
       <span className="text-[#FF9F0D]">St</span>ill You Need Our Support?
     </h2>
     <p className="text-[14px] md:text-[16px] font-helvetica font-normal text-[#FFFFFF] mt-2">
-     Don't wait; make a smart & logical quote here. It's pretty easy.
+     It is  pretty easy.
       </p>
     </div>
     <div className="flex flex-col md:flex-row w-full md:w-[50%] mt-2 p-4 ">

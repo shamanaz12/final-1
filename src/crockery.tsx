@@ -1,34 +1,47 @@
 import React from 'react';
+import Image from 'next/image';
 
 const ChooseItem = () => {
   return (
     <div className="w-full min-h-screen bg-black flex flex-wrap justify-center items-center gap-4">
       <div className="bg-gray-100 p-4 rounded-lg">
-        <img
+        <Image 
           src="/images/crockery1.png"
           alt="Crockery 1"
-          className="w-80 h-48 object-cover rounded-lg"
+          layout="responsive" 
+          width={80} // Aspect ratio width
+          height={48} // Aspect ratio height
+          className="rounded-lg"
         />
       </div>
       <div className="bg-gray-100 p-4 rounded-lg">
-        <img
+        <Image 
           src="/images/crockery3.png"
           alt="Crockery 3"
-          className="w-80 h-48 object-cover rounded-lg"
+          layout="responsive" 
+          width={80}
+          height={48}
+          className="rounded-lg"
         />
       </div>
       <div className="bg-gray-100 p-4 rounded-lg">
-        <img
+        <Image 
           src="/images/crockery4.png"
           alt="Crockery 4"
-          className="w-80 h-48 object-cover rounded-lg"
+          layout="responsive" 
+          width={80}
+          height={48}
+          className="rounded-lg"
         />
       </div>
       <div className="bg-gray-100 p-4 rounded-lg">
-        <img
+        <Image 
           src="/images/crockery5.png"
           alt="Crockery 5"
-          className="w-80 h-48 object-cover rounded-lg"
+          layout="responsive" 
+          width={80}
+          height={48}
+          className="rounded-lg"
         />
       </div>
     </div>

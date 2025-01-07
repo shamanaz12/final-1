@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Hero = () => {
@@ -17,10 +18,12 @@ const Hero = () => {
         </button>
       </div>
       <div className="w-1/2 flex items-center justify-center">
-        <img
+        <Image 
           src="/images/hero.png"
           alt="Example"
-          className="max-w-full h-auto rounded-lg"
+          width={500} // Image ki width
+          height={300} // Image ki height
+          className="rounded-lg"
         />
       </div>
     </div>
